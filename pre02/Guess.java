@@ -20,7 +20,11 @@ public static void main(String[] args) {
   System.out.println("The number I was thinking of was: " + number);
 
   difference = number - guess; 
-  System.out.println("You were off by: " + difference);
+
+  //after scanning Chapter 4 and Googling the phrase 'Java absolute value' I tried this out
+
+  int value = Math.abs(difference);
+  System.out.println("You were off by: " + value);
   
 }
 }
