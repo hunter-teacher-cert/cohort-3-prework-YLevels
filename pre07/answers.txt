@@ -1,0 +1,18 @@
+/*Exercise 2
+
+
+public static int banana(int[] a) {
+    int kiwi = 1;
+    int i = 0;
+    while (i < a.length) {
+        kiwi = kiwi * a[i];
+        i++;
+    }
+    return kiwi;
+}
+
+banana Method:
+Makes an array of integers the length of a. 
+
+variable kiwi is the element of the array
+variable i is the index of the array.
